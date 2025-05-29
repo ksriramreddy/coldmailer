@@ -19,7 +19,6 @@ app.use(cors({
 }));
 
 const __dirname = path.resolve();
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
